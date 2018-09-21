@@ -4,7 +4,7 @@
 
 ## Lord of the Rings
 
-![LOTR](http://wallpapercave.com/wp/KzQhmyc.jpg)
+![LOTR](https://wallpapercave.com/wp/KzQhmyc.jpg)
 
 ## Learning Objectives
 
