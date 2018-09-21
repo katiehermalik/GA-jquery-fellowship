@@ -18,7 +18,7 @@ going on an adventure.
 ## Setup
 
 1. You will be writing your answers inside the `app.js` file located in the folder from this repo: `lotr_homework/js/app.js`
-2. Open the `index.html` file in your browser to test your work. It is located at: `homework/lotr_homework/index.html`
+2. Open the `index.html` file in your browser to test your work. It is located at: `lotr_homework/index.html`
 
 ## Resources
 1. Inside the folder `lotr_homework` folder are an `index.html` file and an a `style.css` sheet that will add some structure and style to your homework.
