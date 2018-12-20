@@ -281,5 +281,20 @@ $(() => {
   $('#11').on('click', itsDangerousToGoAlone);
   $('#12').on('click', weWantsIt);
   $('#13').on('click', thereAndBackAgain);
+  $('#14').on('click', () => {
+    makeMiddleEarth();
+    makeHobbits();
+    keepItSecretKeepItSafe();
+    makeBaddies();
+    makeBuddies();
+    leaveTheShire();
+    beautifulStranger();
+    forgeTheFellowShip();
+    theBalrog();
+    hornOfGondor();
+    itsDangerousToGoAlone();
+    weWantsIt();
+    thereAndBackAgain();
+  });
 
 });
