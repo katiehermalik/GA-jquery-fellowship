@@ -141,6 +141,7 @@ ul {
 #mount-doom {
   height: 100px;
   width: 100px;
+  background-color: rgba(63, 63, 63, 0.2);
 }
 
 #gollum {
