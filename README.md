@@ -1,8 +1,6 @@
-# jQuery-fellowship
+![GA Cog](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-# Homework
-
-## Lord of the Rings
+# Lord of the Rings
 
 ![LOTR](https://wallpapercave.com/wp/KzQhmyc.jpg)
 
