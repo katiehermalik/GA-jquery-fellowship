@@ -80,7 +80,7 @@ article li {
 
 /* The Shire */
 article:nth-child(1) {
-  top: 35%;
+  top: 15%;
   left: 21%;
 }
 
@@ -172,7 +172,7 @@ aside ul {
 
   /* The Shire */
   article:nth-child(1) {
-    top: 30%;
+    top: 20%;
     left: 25%;
   }
 
