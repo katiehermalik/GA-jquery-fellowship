@@ -119,6 +119,7 @@ const beautifulStranger = () => {
 // ============
 // Chapter 8
 // ============
+
 const forgeTheFellowShip = () => {
   const $theFellowship = $('<div id="the-fellowship"><h1>"The Fellowship"</h1></div>');
   $('#middle-earth').append($theFellowship);
@@ -129,26 +130,20 @@ const forgeTheFellowShip = () => {
 // ============
 // Chapter 9
 // ============
+
 const theBalrog = () => {
   const $gandalf = $('.buddy').first().text('Gandalf the White');
   $gandalf.addClass('the-white');
 };
 
-// COMMIT YOUR WORK
-// The commit message should read: "Chapter 9 complete - Updated Gandalf"
-
 // ============
 // Chapter 10
 // ============
+
 const hornOfGondor = () => {
-  console.log('Horn of Gordon');
-
-  // 1. create a pop-up alert that the horn of gondor has been blown
-
-  // 2. Boromir's been killed by the Uruk-hai! Put a linethrough on Boromir's name
-
-  // 3. Tricky: Remove the Uruk-Hai from the Baddies on the page
-
+  alert('The horn of gondor has been blown!');
+  $('.buddy').last().css('text-decoration', 'line-through');
+  $('#Mordor').find('li').eq(2).remove();
 };
 
 // COMMIT YOUR WORK
