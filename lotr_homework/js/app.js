@@ -66,11 +66,9 @@ const makeHobbits = () => {
 // ============
 
 const keepItSecretKeepItSafe = () => {
-  console.log('Keep it secret');
-  const $theRing = $(`<div id="the-ring" />`);
+  const $theRing = $('<div id="the-ring" />');
   console.log($theRing);
-  $('.hobbit')[0].append($theRing);
-
+  ($('.hobbit').eq(0)).append($theRing);
 };
 
 // COMMIT YOUR WORK
@@ -110,18 +108,12 @@ const leaveTheShire = () => {
   $('#Rivendell').append($('#The-Shire').children()[1]);
 };
 
-// COMMIT YOUR WORK
-// The commit message should read: "Chapter 6 complete - Left the Shire"
-
 // ============
 // Chapter 7
 // ============
+
 const beautifulStranger = () => {
-  console.log('Beautiful Stranger');
-  // 1. change the buddy 'Strider' textnode to "Aragorn"
-
-  // hint: You can get a list of elements by tag name, such as 'aside'
-
+  $('aside').find('li').eq(3).text("Aragorn");
 };
 
 // COMMIT YOUR WORK
