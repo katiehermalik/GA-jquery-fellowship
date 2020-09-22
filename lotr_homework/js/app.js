@@ -61,21 +61,15 @@ const makeHobbits = () => {
   }
 };
 
-// COMMIT YOUR WORK
-// The commit message should read: "Chapter 2 complete - Made the Hobbits".
-
 // ============
 // Chapter 3
 // ============
+
 const keepItSecretKeepItSafe = () => {
-
-  // 1. create an empty div with an id of 'the-ring'
-
-  // 2. add the ring as a child of Frodo
-
-  // hint: Frodo does not have an id, but there is a command to retrieve all elements with a certain class. This should give you an array for you to access . . .
-
-  // when you think you have given Frodo the ring, check in your Elements tab
+  console.log('Keep it secret');
+  const $theRing = $(`<div id="the-ring" />`);
+  console.log($theRing);
+  $('.hobbit')[0].append($theRing);
 
 };
 
@@ -85,14 +79,7 @@ const keepItSecretKeepItSafe = () => {
 // ============
 // Chapter 4
 // ============
-const makeBaddies = () => {
 
-  // 1. display an unordered list of baddies in Mordor
-
-  // 2. give each of the baddies a class of "baddy"
-
-  // 3. remember to append them to Mordor
-};
 
 // COMMIT YOUR WORK
 // The commit message should read: "Chapter 4 complete - Made the Baddies"..
@@ -101,7 +88,7 @@ const makeBaddies = () => {
 // Chapter 5
 // ============
 const makeBuddies = () => {
-
+  console.log('Make Buddies');
   // 1. create an aside tag and append it to middle-earth below mordor
 
   // 2. display an unordered list of buddies in the aside
@@ -117,7 +104,7 @@ const makeBuddies = () => {
 // Chapter 6
 // ============
 const leaveTheShire = () => {
-
+  console.log('Leave the Shire');
   // 1. grab the hobbits (the ul in which they reside) and move them to Rivendell
 
   // hint: the hobbits ul is a childNode of The-Shire-- there is way to get a list of childNodes
@@ -131,7 +118,7 @@ const leaveTheShire = () => {
 // Chapter 7
 // ============
 const beautifulStranger = () => {
-
+  console.log('Beautiful Stranger');
   // 1. change the buddy 'Strider' textnode to "Aragorn"
 
   // hint: You can get a list of elements by tag name, such as 'aside'
@@ -145,7 +132,7 @@ const beautifulStranger = () => {
 // Chapter 8
 // ============
 const forgeTheFellowShip = () => {
-
+  console.log('Forge The Fellowship');
   // 1. create a new div with an id 'the-fellowship'
 
   // 2. add an h1 with the text 'The Fellowship' to this new div
@@ -163,7 +150,7 @@ const forgeTheFellowShip = () => {
 // Chapter 9
 // ============
 const theBalrog = () => {
-
+  console.log('The Balrog');
   // 1. change the 'Gandalf' textNode to 'Gandalf the White'
 
   // 2. add a class "the-white" to this element
@@ -179,6 +166,7 @@ const theBalrog = () => {
 // Chapter 10
 // ============
 const hornOfGondor = () => {
+  console.log('Horn of Gordon');
 
   // 1. create a pop-up alert that the horn of gondor has been blown
 
@@ -195,7 +183,7 @@ const hornOfGondor = () => {
 // Chapter 11
 // ============
 const itsDangerousToGoAlone = () => {
-
+  console.log('Dangerous');
   // 1. take Frodo and Sam out of the fellowship and move them to Mordor (they don't need to be inside a ul in Mordor)
 
   // 2. add a div with an id of 'mount-doom' to Mordor
@@ -209,7 +197,7 @@ const itsDangerousToGoAlone = () => {
 // Chapter 12
 // ============
 const weWantsIt = () => {
-
+  console.log('we wants it');
   // 1. Create a div with an id of 'gollum' and add it to Mordor
 
   // 2. Move the ring from Frodo and give it to Gollum
@@ -225,7 +213,7 @@ const weWantsIt = () => {
 // Chapter 13
 // ============
 const thereAndBackAgain = () => {
-
+  console.log('there and back again');
   // 1. remove Gollum and the Ring from the DOM
 
   // 2. remove all the baddies from the DOM
