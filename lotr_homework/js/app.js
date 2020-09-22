@@ -105,7 +105,7 @@ const makeBuddies = () => {
 // ============
 
 const leaveTheShire = () => {
-  $('#Rivendell').append($('#The-Shire').children()[1]);
+  $('#Rivendell').append($('#The-Shire').children().eq(1));
 };
 
 // ============
@@ -116,22 +116,14 @@ const beautifulStranger = () => {
   $('aside').find('li').eq(3).text("Aragorn");
 };
 
-// COMMIT YOUR WORK
-// The commit message should read: "Chapter 7 complete - Strider is changed to Aragorn"
-
 // ============
 // Chapter 8
 // ============
 const forgeTheFellowShip = () => {
-  console.log('Forge The Fellowship');
-  // 1. create a new div with an id 'the-fellowship'
-
-  // 2. add an h1 with the text 'The Fellowship' to this new div
-
-  // 3. append the fellowship to middle-earth
-
-  // 4. add the unordered lists of hobbits and buddies to 'the-fellowship'
-
+  const $theFellowship = $('<div id="the-fellowship"><h1>"The Fellowship"</h1></div>');
+  $('#middle-earth').append($theFellowship);
+  $('#the-fellowship').append($('#Rivendell').children().eq(1));
+  $('#the-fellowship').append($('aside').children());
 };
 
 // COMMIT YOUR WORK
