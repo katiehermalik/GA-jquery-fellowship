@@ -80,6 +80,13 @@ const keepItSecretKeepItSafe = () => {
 // Chapter 4
 // ============
 
+const makeBaddies = () => {
+  const $baddiesList = $('<ul />');
+  $('#Mordor').append($baddiesList);
+  for (let i = 0; i < baddies.length; i++) {
+    $baddiesList.append(`<li class="hobbit">${baddies[i]}</li>`); 
+  }
+};
 
 // COMMIT YOUR WORK
 // The commit message should read: "Chapter 4 complete - Made the Baddies"..
