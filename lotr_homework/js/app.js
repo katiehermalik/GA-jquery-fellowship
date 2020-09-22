@@ -146,18 +146,14 @@ const hornOfGondor = () => {
   $('#Mordor').find('li').eq(2).remove();
 };
 
-// COMMIT YOUR WORK
-// The commit message should read: "Chapter 10 complete - horn of gandor blew and Boromir is dead"
-
 // ============
 // Chapter 11
 // ============
+
 const itsDangerousToGoAlone = () => {
-  console.log('Dangerous');
-  // 1. take Frodo and Sam out of the fellowship and move them to Mordor (they don't need to be inside a ul in Mordor)
-
-  // 2. add a div with an id of 'mount-doom' to Mordor
-
+  $('#Mordor').append($('#the-fellowship').find('.hobbit').eq(0));
+  $('#Mordor').append($('#the-fellowship').find('.hobbit').eq(0));
+  $('#Mordor').append('<div id="mount-doom" />');
 };
 
 // COMMIT YOUR WORK
