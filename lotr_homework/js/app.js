@@ -42,7 +42,6 @@ const lands = [
 // ============
 
 const makeMiddleEarth = () => {
-  console.log("Trying to make middle earth.");
   const $middleEarth = $('<section id="middle-earth" />');
   $('body').append($middleEarth);
   for (let i = 0; i < lands.length; i++) {
@@ -50,24 +49,16 @@ const makeMiddleEarth = () => {
   }
 };
 
-// COMMIT YOUR WORK
-// The commit message should read: "Chapter 1 complete - Made Middle Earth".
-
 // ============
 // Chapter 2
 // ============
+
 const makeHobbits = () => {
-
-  console.log('Make hobbits');
-
-  // 1. display an unordered list of the hobbits in the shire.
-
-  // 2. give each hobbit a class of "hobbit"
-
-  // hint: create a 'ul' outside the loop upon which to append the 'li's
-
-  // hint: get 'The-Shire' by using its id
-
+  const $hobbitsList = $('<ul />');
+  $('#The-Shire').append($hobbitsList);
+  for (let i = 0; i < hobbits.length; i++) {
+    $hobbitsList.append(`<li class="hobbit">${hobbits[i]}</li>`); 
+  }
 };
 
 // COMMIT YOUR WORK
